@@ -60,7 +60,7 @@ def main():
         guesses = guess_checker(choice, s, e)
         print(f'You did it! My number was {choice}!\nIt took you exactly {guesses} guesses!')
         while True:
-            user_again = input('Do you want to play again? (y/n) ').lower().strip()
+            user_again = input('Do you want to play again? (y/n): ').lower().strip()
             if user_again == 'y':
                 print('Playing again!')
                 break
