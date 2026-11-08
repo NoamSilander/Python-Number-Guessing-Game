@@ -45,7 +45,7 @@ def guess_checker(choice, s, e):
             print('Higher!')
         elif guess > choice:
             guesses += 1
-            print('Lower')
+            print('Lower!')
         elif guess == choice:
             guesses += 1
             return guesses
